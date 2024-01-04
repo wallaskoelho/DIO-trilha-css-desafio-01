@@ -3,3 +3,144 @@
     margin: 0px;
     text-decoration: none;
 }
+
+body{
+    width: 1440px;
+    background: black;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 605px;
+    background-image: url(../images/banner.png), linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.9) 100%);
+    
+   
+    
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+    
+    
+    h1{
+        background: linear-gradient(180deg, #56add3 0%, #1472B7 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p{
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    button{
+        display: flex;
+        width: 326px;
+        padding: 19px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 31px;
+        color: #31A8DD;
+        font-family: Raleway;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: .18rem;
+        border: 2px solid #3BA1CD;
+        background: transparent;
+    }
+}
+
+#course-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    h2{
+        color: rgba(51, 168, 219, 1);
+        font-size: 3.2rem;
+        padding: 7rem 0 2rem 0 ;
+        text-align: center;
+        font-family: Raleway;
+        font-weight: 700;
+        letter-spacing: 0.25rem;
+       
+
+    }
+
+    p{
+        color: rgba(255, 255, 255, 1);
+        font-family: Raleway;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.9rem;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 800px;
+
+    }
+}
+
+.modules-list{
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    letter-spacing: 0.01rem;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+.module{
+    width: 450px;
+    height: Hug 51px;
+    background-color: rgba(37, 37, 37, 1);
+    padding: 1rem 2.5rem;
+    margin: 2rem 0px;
+    border-radius: 57px;
+    border: 1px solid rgba(51, 168, 219, 1);
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+
+    span{
+        color: rgba(51, 168, 219, 1);
+    }
+    
+}
+
+#transform-world{
+    height: 500px;
+    top: -250px;
+    background: url(../images/woman-code.png), lightgray 50% / cover no-repeat;
+   
+
+    p{
+        width: 244px;
+        height: 141px;
+        margin: 0 0 0 7rem;
+        color: rgba(255, 255, 255, 1);
+        text-shadow: 3px 2px 0px #33A8DB;
+        font-family: Raleway;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+                ;
+    }
+}
